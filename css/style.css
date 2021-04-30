@@ -1,0 +1,11 @@
+body{
+    background: url("../img/fon.jpg"),  rgba(255, 0, 0, 0.6);
+    /* background-position: center; */
+    background-size: cover;
+    background-blend-mode: color-burn;
+}
+
+.badge>img{
+    width: 101px;
+    height: 53px;
+}
