@@ -1,5 +1,5 @@
 body{
-    background: url("../img/fon.jpg"),  rgba(255, 0, 0, 0.6);
+    background: url("../img/Снимок экрана 2021-05-04 185438.png"),  rgba(255, 0, 0, 0.6);
     /* background-position: center; */
     background-size: cover;
     background-blend-mode: color-burn;
@@ -8,4 +8,205 @@ body{
 .badge>img{
     width: 101px;
     height: 53px;
+}
+
+.main{
+    margin-left:186px;
+    width: 1734px;
+    height: 1080px;
+    background-color: aliceblue;
+    display:flex;
+ 
+     flex-direction: column;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    width: 1734px;
+    padding: 0 calc(20% - 490px);
+    justify-content:space-around;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    
+}
+
+.the_main{
+    font-size: bolder;
+    font-size:40px ;
+    margin-left: 55px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.menu_right{
+    display: flex;
+    margin-left:600px;
+    
+}
+
+.nav_menu{
+    
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    margin-left: 100px;
+    padding-left: 100px;
+}
+
+.personal_data{
+    display:flex;
+    align-items: center;
+    background-color: #F2F5FA;
+    justify-content:space-between;
+    padding-right: 10px;
+    border-radius: 100px;
+    height: 60px;
+    
+}
+
+.nav_menu>img{
+    margin-right: 20px;
+    
+}
+
+.personal_data>.name,.arrow{
+    margin: 20px;
+}
+
+.name{
+    font-family: 'Poppins', sans-serif;
+}
+
+.arrow{
+    padding: 0;
+}
+
+
+
+.selection_of_the_type_of_music{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 46px;
+    margin-left: 46px;
+    margin-right: 34px;
+}
+
+.appointment1,.appointment2,.appointment3,.appointment4{
+    font-family: 'Poppins', sans-serif;
+    font-size: bolder;
+    font-size:35px ;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.type_favorite{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #8FC9FF;
+    width: 647.44px;
+    height: 281.23px;
+    border-radius: 24px;
+    margin-left: 16px;
+}
+
+.type_opposite{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #CDB4F5;
+    width: 258.44px;
+    height: 281.23px;
+    border-radius: 24px;
+    margin-left: 64px;
+}
+
+.type_favorites{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #55E46E;
+    width: 258.44px;
+    height: 281.23px;
+    border-radius: 24px;
+    margin-left: 26px;
+    
+}
+
+.type_forbidden_music{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #F9E598;
+    width: 258.44px;
+    height: 281.23px;
+    border-radius: 24px;
+    margin-left: 6px;
+}
+
+.music_wave{
+    margin-bottom: 74px;
+    margin-left: 61px;
+}
+
+.black_cloud{
+    margin-left: 410px;
+    margin-bottom: 8px;
+}
+
+.appointment1{
+    margin-top: 45px;
+}
+
+.white-box{
+    background-color: #FFFFFF;
+    width: 74px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    border-radius: 14px;
+    margin-left: 34px;
+    margin-top: 30px;
+}
+
+.number1,.number2,.number3,.number4{
+    display: flex;
+    align-items: baseline;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 76px;
+    justify-content: space-between;
+}
+
+.star{
+    margin-right: 560px;
+}
+
+.duration_of_music{
+    margin-left: 60px;
+    margin-right: 150px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.name_music{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 300px;
+    margin-left: 100px;
+}
+
+.name_of_music{
+    margin-bottom: 20px;
+    font-size: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.author{
+    color: #7A899A;
+    font-family: 'Poppins', sans-serif;
 }
